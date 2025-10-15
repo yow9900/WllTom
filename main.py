@@ -9,7 +9,7 @@ import subprocess
 import logging
 
 # Configuration
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
+BOT_TOKEN = os.environ.get('7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw')
 WEBHOOK_URL = os.environ.get('https://wlltom-i5v5.onrender.com')
 
 # FFmpeg binary detection
