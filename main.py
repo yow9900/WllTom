@@ -5,7 +5,7 @@ from telebot.types import InlineKeyboardMarkup,InlineKeyboardButton
 from pymongo import MongoClient
 from concurrent.futures import ThreadPoolExecutor
 from collections import deque
-from assemblyai import Client as AssemblyAIClient, TranscribeConfig
+
 
 logging.basicConfig(level=logging.INFO,format='%(asctime)s - %(levelname)s - %(message)s')
 
