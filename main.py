@@ -29,10 +29,6 @@ DB_NAME=env.get("DB_NAME","telegram_bot_db")
 REQUIRED_CHANNEL=env.get("REQUIRED_CHANNEL","")
 BOT_TOKENS=[t.strip() for t in env.get("BOT_TOKENS","").split(",") if t.strip()]
 
-if not SECRET_KEY:
-    logging.critical("SECRET_KEY required")
-    raise RuntimeError("SECRET_KEY required")
-
 client=MongoClient(MONGO_URI) if MONGO_URI else MongoClient()
 db=client[DB_NAME]
 users_collection=db["users"]
