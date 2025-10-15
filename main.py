@@ -34,8 +34,8 @@ else:
 
 
 # Configuration
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
-WEBHOOK_URL = os.environ.get('WEBHOOK_URL')
+BOT_TOKEN = os.environ.get('7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw')
+WEBHOOK_URL = os.environ.get('https://wlltom-i5v5.onrender.com')
 
 bot = telebot.TeleBot(BOT_TOKEN)
 app = Flask(__name__)
