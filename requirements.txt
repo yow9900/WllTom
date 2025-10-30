@@ -5,3 +5,4 @@ pymongo
 SpeechRecognition
 gunicorn
 ffmpeg-python
+edge_tts
