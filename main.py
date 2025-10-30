@@ -9,7 +9,7 @@ from pymongo import MongoClient
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 TOKEN = "8281896922:AAF5KBeSbSmfA2gb9R_9mLwepM50R-k37GY"
-WEBHOOK_URL = "https://you-tube-save-bot-5tbw.onrender.com"
+WEBHOOK_URL = "https://wlltom-5udc.onrender.com"
 REQUIRED_CHANNEL = ""
 
 DB_USER = "lakicalinuur"
